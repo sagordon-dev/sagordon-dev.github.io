@@ -1,2 +1,2 @@
-# Coursera-Build-Your-Portfolio-Website
- Quick course to practice building your personal portfolio web site
+# Scott Gordon's Portfolio Webpage
+ A very simple website just to get my work out there
