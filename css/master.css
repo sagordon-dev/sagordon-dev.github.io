@@ -1,59 +1,110 @@
-  a {
-    color: blue;
-    text-decoration: none; 
-  }
+header {
+  color: #262637;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
 
-  a:hover {
-    color: red;
-    text-decoration: none;
-  }
+body {
+  color: #262637;
+  font-family: 'Montserrat', sans-serif;
+  width: 800px;
+  margin: auto;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+}
 
-  body {
-    width: 800px;
-    margin: auto;
-    background-color: gainsboro;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-   }
+nav ul {
+  position: fixed;
+  top: 0;
+  width: 800px;
+  background-color: #333;
+  list-style-type: none;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+}
 
-  footer {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
+nav li {
+  display: inline;
+  font-size: large;
+}
 
-  h1 {
-    margin-bottom: 0.5rem;
-    margin-top: 3rem;
-   }
+nav li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  h2 {
-    color: #075aab;
-    margin-bottom: 2.5 rem;
-    margin-top: 2.5 rem;
-   }
+nav li a:hover {
+  background-color: #111;
+  color: white;
+}
 
-  h3 {
-    margin-bottom: 0;
-    margin-top: 2rem;
-  }
+a {
+  color: #21A6AE;
+  text-decoration: none;
+}
 
-  h4 {
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
-  }
+a:hover {
+  color: #135255;
+  text-decoration: none;
+}
 
-  h5 {
-    margin-top: 0.5rem;
-  }
+footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
-  hr {
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-  }
+h1 {
+  margin-bottom: 0.5rem;
+  margin-top: 3rem;
+}
 
-  ul {
-    display: table;
-    margin: 0 auto;
-    text-align: left;
-  }
+h1,h2,h3 {
+	margin:10;
+	padding:10;
+}
+
+hr {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Skills Section */
+
+/* Make sure padding behaves as expected */
+* {box-sizing: border-box;}
+
+/* Container for skills bars */
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.python {width: 90%; background-color: #4B8BBE;}
+.html5 {width: 90%; background-color: #E44D26;}
+.css {width: 90%; background-color: #264DE4}
+.vim {width: 90%; background-color: #025b02;}
+.markdown {width: 90%; background-color: #000000;}
+.javascript {width: 80%; background-color: #f7E018;}
+.cloud {width: 80%; background-color: #0092ce;}
+.linux {width: 80%; background-color: #f3bf00;}
+.jupyter {width: 80%; background-color: #f37821;}
+.sql {width: 70%; background-color: #0072c5;}
+.java {width: 70%; background-color: #de0000;}
+.c {width: 70%; background-color: #283593;}
