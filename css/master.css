@@ -108,3 +108,17 @@ ul {
 .sql {width: 70%; background-color: #0072c5;}
 .java {width: 70%; background-color: #de0000;}
 .c {width: 70%; background-color: #283593;}
+
+/* Tags Section */
+
+.tags p{
+  padding: 5px;
+  color:#21A6AE;
+  font-size: .85rem;
+}
+
+.tags h2 {
+  padding: 5px;
+  color: #135255;
+  font-size: 1rem;
+}
