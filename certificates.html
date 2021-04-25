@@ -1,117 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <meta name="name" content="Scott Gordon - Data Scientist / Full-Stack Developer">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
-        <meta name="robots" content="noindex, nofollow">
-      
-        <title>Scott Gordon - Certificates</title>
-      
-        <link rel="stylesheet" href="css/master.css">
-        <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
-        <link rel="shortcut" href="favicon.ico" type="image/x-icon">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Montserrat:400,500,700,800"
-          rel="stylesheet">
-        <script src="https://kit.fontawesome.com/9c1549859f.js" crossorigin="anonymous"></script>
-      </head>
-
-<header>
-    <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="certificates.html">Certificates</a></li>
-          <li><a href="work.html">Work</a></li>
-          <li><a href="resume.html">Resume</a></li>
-        </ul>
-      </nav>
-</header>
+<head>
+    <title>Scott Gordon - My Certificates</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Montserrat:400,500,700,800"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9c1549859f.js" crossorigin="anonymous"></script>
+    <script src="/scripts/last_modified.js"></script>
+</head>
 
 <body>
-    <h1>Certificates</h1>
-    <em>All badges are in chronological order from left to right top to bottom.</em>
-    <table>
-        <tr>
-            <td>
+    <!-- Header -->
+    <div class="header">
+        <h1>My Certificates</h1>
+        <p>With a <b>flexible</b> layout.</p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="certificates.html">Certificates</a>
+        <a href="work.html">Work</a>
+        <a href="resume.html">Resume</a>
+    </div>
+
+    <!-- The flexible grid (content) -->
+    <div class="row">
+        <div class="side">
+            <h2>About Me</h2>
+            <h5>My Picture:</h5>
+            <div style="height:200px;" class="portrait"></div>
+            <p>Just a casual picture of me with my dorky hipster glasses.</p>
+            <!-- Begin skills section -->
+            <h2>My Proficiencies</h2>
+            <h3>Programming Languages</h3>
+            <p><i class="fab fa-python"></i> Python</p>
+            <div class="container">
+                <div class="skills python">90%</div>
+            </div>
+            <p><i class="fab fa-java"></i> Java</p>
+            <div class="container">
+                <div class="skills java">80%</div>
+            </div>
+            <p><i class="fab fa-js"></i> JavaScript</p>
+            <div class="container">
+                <div class="skills js">75%</div>
+            </div>
+            <p><i class="fab fa-html5"></i> HTML</p>
+            <div class="container">
+                <div class="skills html">85%</div>
+            </div>
+            <p><i class="fab fa-css3-alt"></i> CSS</p>
+            <div class="container">
+                <div class="skills css">80%</div>
+            </div>
+
+            <h3>Programming Tools</h3>
+
+            <p><i class="fab fa-node-js"></i> NodeJS</p>
+            <div class="container">
+                <div class="tools nodejs">50%</div>
+            </div>
+            <p><i class="fab fa-react"></i> React</p>
+            <div class="container">
+                <div class="tools react">50%</div>
+            </div>
+            <p><i class="fab fa-docker"></i> Docker</p>
+            <div class="container">
+                <div class="tools docker">50%</div>
+            </div>
+
+            <h3>Operating Systems</h3>
+
+            <p><i class="fab fa-windows"></i> Windows</p>
+            <div class="container">
+                <div class="os windows">90%</div>
+            </div>
+            <p><i class="fab fa-apple"></i> Mac</p>
+            <div class="container">
+                <div class="os mac">80%</div>
+            </div>
+            <p> <i class="fab fa-linux"></i> Linux</p>
+            <div class="container">
+                <div class="os linux">85%</div>
+            </div>
+        </div>
+        <div class="main">
+
+            <body onload="getLastModified()">
+                <h2>INDUSTRY BADGES</h2>
+                <h5 id="date">Title description, Dec 7, 2017</h5>
+
+                <div class="certificates" style="height:200px;"></div>
+
                 <div data-iframe-width="150" data-iframe-height="270"
                     data-share-badge-id="279f31ae-f6fb-41d7-8d9f-cf8f431168d4"
                     data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            </td>
-            <td>
+
                 <div data-iframe-width="150" data-iframe-height="270"
                     data-share-badge-id="99da2ca4-6db3-4fd6-887f-234e1552d489"
                     data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            </td>
-            <td>
+
                 <div data-iframe-width="150" data-iframe-height="270"
                     data-share-badge-id="09cb6b5b-32e7-4736-93c3-093a3dc3bb92"
                     data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            </td>
-            <td>
+
                 <div data-iframe-width="150" data-iframe-height="270"
                     data-share-badge-id="140ad9f8-3ca0-47d5-a7d7-23ba6f89ecf3"
                     data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            </td>
-            <td>
+
                 <div data-iframe-width="150" data-iframe-height="270"
                     data-share-badge-id="983afe0a-ebd5-43f7-984d-7166da12874a"
                     data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            </td>
-        </tr>
-        <tr>
 
-            <td>
                 <div data-iframe-width="150" data-iframe-height="270"
                     data-share-badge-id="7f2c3ea6-8b48-4b95-b1a8-c58a77fc808f"
                     data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            </td>
-            <td>
+
                 <div data-iframe-width="150" data-iframe-height="270"
                     data-share-badge-id="403c45b0-080a-4b7f-a184-62882aa9dde0"
                     data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            </td>
-            <td>
+
                 <div data-iframe-width="150" data-iframe-height="270"
                     data-share-badge-id="5b565c6f-f1cb-4909-a319-d9820ec76a83"
                     data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            </td>
-            <td>
+
                 <div data-iframe-width="150" data-iframe-height="270"
                     data-share-badge-id="3027d0f6-1184-4351-abf3-15cd62d8f15d"
                     data-share-badge-host="https://www.credly.com"></div>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            </td>
-        </tr>
 
-    </table>
+            </body>
+
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Find Me On ...</h2>
+        <a href="https://www.linkedin.com/in/scott-gordon-2a4a0b180/"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://github.com/sagordon-dev"><i class="fab fa-github-square fa-2x"></i></a>
+        <a href="https://stackoverflow.com/users/11213295/scott-gordon?tab=profile"><i
+                class="fab fa-stack-overflow fa-2x"></i></a>
+        <a href="https://twitter.com/SagordonD"><i class="fab fa-twitter-square fa-2x"></i></a>
+        <a href="mailto:sagordon-dev@outlook.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+        <br><br>
+        <p>&copy; 2021 https://sagordon-dev.github.io/</p>
+    </div>
+
 </body>
-<footer>
-    <hr>
-    <a href="https://www.linkedin.com/in/scott-gordon-2a4a0b180/"><i class="fab fa-linkedin fa-2x"></i></a>
-    <a href="https://github.com/sagordon-dev"><i class="fab fa-github-square fa-2x"></i></a>
-    <a href="https://stackoverflow.com/users/11213295/scott-gordon?tab=profile"><i
-        class="fab fa-stack-overflow fa-2x"></i></a>
-    <a href="https://twitter.com/SagordonD"><i class="fab fa-twitter-square fa-2x"></i></a>
-    <a href="mailto:sagordon-dev@outlook.com"><i class="fas fa-envelope-square fa-2x"></i></a>
-    <br>
-    <code>&copy; 2021 https://sagordon-dev.github.io/</code>
-  </footer>
 
 </html>

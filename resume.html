@@ -1,114 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-  <head>
+<head>
+    <title>Scott Gordon - My Resume</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="name" content="Scott Gordon - Data Scientist / Full-Stack Developer">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="robots" content="noindex, nofollow">
-  
-    <title>Scott Gordon - Resume</title>
-  
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Montserrat:400,500,700,800"
-      rel="stylesheet">
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/9c1549859f.js" crossorigin="anonymous"></script>
-  </head>
-<header>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="certificates.html">Certificates</a></li>
-      <li><a href="work.html">Work</a></li>
-      <li><a href="resume.html">Resume</a></li>
-    </ul>
-  </nav>
-  
-  <h1>Scott Gordon</h1>
-  <img src="images/profile_small.jpg" alt="Scott Gordon's headshot">
-  <ul>
-    <li>Versatile, creative, consummate collaborative software developer
-      (Python, Java, SQL, Azure)</li>
-    <li>14 yr experience as successful
-      business owner (personal trainer, software developer)</li>
-  </ul>
-</header>
+    <script src="/scripts/last_modified.js"></script>
+</head>
 
 <body>
-  <hr>
-  <h3>Summary</h3>
-  <p>My 14 year career as an accomplished owner of 2 businesses (my
-    fitness training studio, Gordon’s Fitness, and my system builder
-    business, Adroit Business Machine) has enabled me to leverage
-    my key talents as a visionary, opportunistic leader and make a
-    difference in the community. I am immensely proud of the impact
-    I’ve made helping individuals and businesses achieve their goals
-    (personal fitness and software development) by attaining excellence
-    in client satisfaction through my consummate relationship building
-    skills and passion for problem solving efficiently , effectively.</p>
-  <p>Among my most notable skills and competencies: </p>
-  <ul>
-    <li>adaptable</li>
-    <li>self-starter</li>
-    <li>consistent enthusiasm in my performance </li>
-    <li>passion and empathy toward my clients’ challenges, concerns and
-      problems</li>
-    <li>deep technical knowledge that complements my diverse soft skills</li>
-  </ul>
-  <p>All of these skills have contributed to my many success stories as an
-    entrepreneur during these past 14 years, within the wellness industry
-    and the software development industry.</p>
-  <p>I look forward to connecting with like minded professionals who
-    share my values and interests and exploring mutually beneficial
-    collaborations. </p>
-  <p>Connect with me at <a href="mailto:sagordon-dev@outlook.com">sagordon-dev@outlook.com</a></p>
-  <p>Check out my GitHub at <a href="https://github.com/sagordon-dev"
-      target="_blank">https://github.com/sagordon-dev</a></p>
-  <h3>Experience</h3>
-  <p>Self-employed<br>
-    Personal Trainer<br>
-    April 2011 - Present, 10+ years</p>
-  <ul>
-    <li>Informed clients through effective presentations regarding healthcare and
-      benefits of services</li>
-    <li>Arranged motivational exercise programs to promote healthy lifestyle
-      choices.</li>
-    <li>Maintained files detailing personal fitness regimens, records, and contracts in
-      newly-implemented system to keep all client information current.</li>
-    <li>Communicated with clients to determine goals and performed client
-      assessments.</li>
-    <li>Grew customer base through word-of-mouth referrals based on customer
-      satisfaction and results.</li>
-    <li>Led, instructed and motivated individuals during exercise activities, including
-      cardiovascular exercise, strength training and stretching</li>
-  </ul>
-  <h3>Education</h3>
-  <p>University of Phoenix<br>
-    Bachelor's degree, Bachelor of Science in Information Technology,<br>
-    Certificate in software development<br>
-    From 2017 - 2020<br></p>
+    <!-- Header -->
+    <div class="header">
+        <h1>My Resume</h1>
+        <p>Always a work in progress</p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="certificates.html">Certificates</a>
+        <a href="work.html">Work</a>
+        <a href="resume.html">Resume</a>
+    </div>
+
+    <!-- The flexible grid (content) -->
+    <div class="row">
+        <div class="side">
+            <h2>About Me</h2>
+            <h5>My Picture:</h5>
+            <div style="height:200px;" class="portrait"></div>
+            <p>Just a casual picture of me with my dorky hipster glasses.</p>
+            <!-- Begin skills section -->
+            <h2>My Proficiencies</h2>
+            <h3>Programming Languages</h3>
+            <p><i class="fab fa-python"></i> Python</p>
+            <div class="container">
+                <div class="skills python">90%</div>
+            </div>
+            <p><i class="fab fa-java"></i> Java</p>
+            <div class="container">
+                <div class="skills java">80%</div>
+            </div>
+            <p><i class="fab fa-js"></i> JavaScript</p>
+            <div class="container">
+                <div class="skills js">75%</div>
+            </div>
+            <p><i class="fab fa-html5"></i> HTML</p>
+            <div class="container">
+                <div class="skills html">85%</div>
+            </div>
+            <p><i class="fab fa-css3-alt"></i> CSS</p>
+            <div class="container">
+                <div class="skills css">80%</div>
+            </div>
+
+            <h3>Programming Tools</h3>
+
+            <p><i class="fab fa-node-js"></i> NodeJS</p>
+            <div class="container">
+                <div class="tools nodejs">50%</div>
+            </div>
+            <p><i class="fab fa-react"></i> React</p>
+            <div class="container">
+                <div class="tools react">50%</div>
+            </div>
+            <p><i class="fab fa-docker"></i> Docker</p>
+            <div class="container">
+                <div class="tools docker">50%</div>
+            </div>
+
+            <h3>Operating Systems</h3>
+
+            <p><i class="fab fa-windows"></i> Windows</p>
+            <div class="container">
+                <div class="os windows">90%</div>
+            </div>
+            <p><i class="fab fa-apple"></i> Mac</p>
+            <div class="container">
+                <div class="os mac">80%</div>
+            </div>
+            <p> <i class="fab fa-linux"></i> Linux</p>
+            <div class="container">
+                <div class="os linux">85%</div>
+            </div>
+
+            <!-- End skills section -->
+        </div>
+        <div class="main">
+
+            <body onload="getLastModified()">
+                <h2>SCOTT GORDON'S RESUME</h2>
+                <h5 id="date"><p>Modified date</p></h5>
+                <div class="resume_banner" style="height:200px;"></div>
+
+                <h3>Summary</h3>
+                <p>My 14 year career as an accomplished owner of 2 businesses (my
+                    fitness training studio, Gordon’s Fitness, and my system builder
+                    business, Adroit Business Machine) has enabled me to leverage
+                    my key talents as a visionary, opportunistic leader and make a
+                    difference in the community. I am immensely proud of the impact
+                    I’ve made helping individuals and businesses achieve their goals
+                    (personal fitness and software development) by attaining excellence
+                    in client satisfaction through my consummate relationship building
+                    skills and passion for problem solving efficiently , effectively.</p>
+                <p>Among my most notable skills and competencies: </p>
+                <ul>
+                    <li>adaptable</li>
+                    <li>self-starter</li>
+                    <li>consistent enthusiasm in my performance </li>
+                    <li>passion and empathy toward my clients’ challenges, concerns and
+                        problems</li>
+                    <li>deep technical knowledge that complements my diverse soft skills</li>
+                </ul>
+                <p>All of these skills have contributed to my many success stories as an
+                    entrepreneur during these past 14 years, within the wellness industry
+                    and the software development industry.</p>
+                <p>I look forward to connecting with like minded professionals who
+                    share my values and interests and exploring mutually beneficial
+                    collaborations. </p>
+                <p>Connect with me at <a href="mailto:sagordon-dev@outlook.com">sagordon-dev@outlook.com</a></p>
+                <p>Check out my GitHub at <a href="https://github.com/sagordon-dev"
+                        target="_blank">https://github.com/sagordon-dev</a></p>
+                <h3>Experience</h3>
+                <p>Self-employed<br>
+                    Personal Trainer<br>
+                    April 2011 - Present, 10+ years</p>
+                <ul>
+                    <li>Informed clients through effective presentations regarding healthcare and
+                        benefits of services</li>
+                    <li>Arranged motivational exercise programs to promote healthy lifestyle
+                        choices.</li>
+                    <li>Maintained files detailing personal fitness regimens, records, and contracts in
+                        newly-implemented system to keep all client information current.</li>
+                    <li>Communicated with clients to determine goals and performed client
+                        assessments.</li>
+                    <li>Grew customer base through word-of-mouth referrals based on customer
+                        satisfaction and results.</li>
+                    <li>Led, instructed and motivated individuals during exercise activities, including
+                        cardiovascular exercise, strength training and stretching</li>
+                </ul>
+                <h3>Education</h3>
+                <p>University of Phoenix<br>
+                    Bachelor's degree, Bachelor of Science in Information Technology,<br>
+                    Certificate in software development<br>
+                    From 2017 - 2020<br></p>
+            </body>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Find Me On ...</h2>
+        <a href="https://www.linkedin.com/in/scott-gordon-2a4a0b180/"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://github.com/sagordon-dev"><i class="fab fa-github-square fa-2x"></i></a>
+        <a href="https://stackoverflow.com/users/11213295/scott-gordon?tab=profile"><i
+                class="fab fa-stack-overflow fa-2x"></i></a>
+        <a href="https://twitter.com/SagordonD"><i class="fab fa-twitter-square fa-2x"></i></a>
+        <a href="mailto:sagordon-dev@outlook.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+        <br><br>
+        <p>&copy; 2021 https://sagordon-dev.github.io/</p>
+    </div>
 
 </body>
-<footer>
-  <hr>
-  <a href="https://www.linkedin.com/in/scott-gordon-2a4a0b180/"><i class="fab fa-linkedin fa-2x"></i></a>
-  <a href="https://github.com/sagordon-dev"><i class="fab fa-github-square fa-2x"></i></a>
-  <a href="https://stackoverflow.com/users/11213295/scott-gordon?tab=profile"><i
-      class="fab fa-stack-overflow fa-2x"></i></a>
-  <a href="https://twitter.com/SagordonD"><i class="fab fa-twitter-square fa-2x"></i></a>
-  <a href="mailto:sagordon-dev@outlook.com"><i class="fas fa-envelope-square fa-2x"></i></a>
-  <br>
-  <code>&copy; 2021 https://sagordon-dev.github.io/</code>
-</footer>
 
 </html>
