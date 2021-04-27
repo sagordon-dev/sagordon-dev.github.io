@@ -17,7 +17,7 @@
             background-color: #3AAFA9;
             font-family: 'Montserrat';
             color: #FEFFFF;
-            background-image: url("../images/background1.jpg");
+            background-image: url("../images/banner7.jpeg");
             background-position: center;
             background-repeat: repeat no-repeat;
             background-size: cover;
@@ -107,7 +107,7 @@
         /* Banner images */
 
         .ds_banner {
-            background-image: url("../images/background2.jpg");
+            background-image: url("../images/banner3.jpeg");
             background-color: #aaa;
             height: 200px;
             background-position: center;
@@ -116,7 +116,7 @@
         }
 
         .wd_banner {
-            background-image: url("../images/background3.jpg");
+            background-image: url("../images/banner4.jpeg");
             background-color: #aaa;
             height: 200px;
             background-position: center;
@@ -134,7 +134,7 @@
         }
 
         .resume_banner {
-            background-image: url("../images/background1.jpg");
+            background-image: url("../images/banner5.jpeg");
             background-color: #aaa;
             height: 200px;
             background-position: center;
@@ -143,7 +143,7 @@
         }
 
         .certificates {
-            background-image: url("../images/background2.jpg");
+            background-image: url("../images/banner6.jpeg");
             background-color: #aaa;
             height: 200px;
             background-position: center;
