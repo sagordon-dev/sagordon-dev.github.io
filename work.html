@@ -9,9 +9,11 @@
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Montserrat:400,500,700,800"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/9c1549859f.js" crossorigin="anonymous"></script>
+    <script src="/scripts/last_modified.js"></script>
+    <script src="/scripts/greeting.js"></script>
 </head>
 
-<body>
+<body onload="greetVisitor(),getLastModified()">
     <!-- Header -->
     <div class="header">
         <h1>My Work</h1>
@@ -29,7 +31,7 @@
     <!-- The flexible grid (content) -->
     <div class="row">
         <div class="side">
-            <h2>About Me</h2>
+            <h2 id="greeting">About Me</h2>
             <h5>My Picture:</h5>
             <div style="height:200px;" class="portrait"></div>
             <p>Just a casual picture of me with my dorky hipster glasses.</p>
@@ -92,7 +94,7 @@
             <h2>MY WORK</h2>
             <hr>
             <h2>SIMPLE INTEREST CALCULATOR</h2>
-            <h5>Created on, April 19, 2021</h5>
+            <h5 id="date">Created on, April 19, 2021</h5>
             <div class="work" style="height:200px;">Image</div>
             <p>This is a <strong>simple interest calculator</strong> that I created to demonstrate my knowledge in
                 JavaScript.</p>
