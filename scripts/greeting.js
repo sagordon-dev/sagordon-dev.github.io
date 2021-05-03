@@ -12,5 +12,5 @@ function greetVisitor() {
     } else {
         greeting = 'Welcome';
     }
-    document.getElementById('greeting').innerHTML = `${greeting}<br> Welcome to my website`;
+    document.getElementById('greeting').textContent = `${greeting}\nWelcome to my website`;
 };
