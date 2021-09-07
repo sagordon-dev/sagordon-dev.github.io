@@ -5,8 +5,10 @@
         /* Style the body */
 
         body {
+            width: 1000px;
+            margin: auto;
             font-family: 'Montserrat';
-            margin: 0;
+            background-color: #0d1219;
         }
 
         /* Header/logo Title */
@@ -14,20 +16,24 @@
         .header {
             padding: 60px;
             text-align: center;
-            background-color: #3AAFA9;
+            background-color: #000000;
             font-family: 'Montserrat';
             color: #FEFFFF;
             background-image: url("../images/banner7.jpeg");
             background-position: center;
             background-repeat: repeat no-repeat;
             background-size: cover;
+            border-radius: 15px;
+            margin-bottom: 10px;
         }
 
         /* Style the top navigation bar */
 
         .navbar {
             display: flex;
-            background-color: #17252A;
+            background-color: #1a2634;
+            border-radius: 15px;
+            margin-bottom: 10px;
         }
 
         /* Style the navigation bar links */
@@ -37,13 +43,15 @@
             padding: 14px 20px;
             text-decoration: none;
             text-align: center;
+            border-radius: 15px;
         }
 
         /* Change color on hover */
 
         .navbar a:hover {
-            background-color: #2B7A78;
-            color: #17252A;
+            background-color: #7b78ff;
+            color: #25244c;
+            border-radius: 15px;
         }
 
         /* Column container */
@@ -59,22 +67,26 @@
 
         .side {
             flex: 30%;
-            background-color: #DEF2F1;
-            color: #17252A;
+            background-color: #191e25;
+            color: #fff;
             padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 10px;
         }
 
         .side h1, .side h2, .side h3, .side h4, .side h5, .side h6 {
-            color: #17252A;
+            color: #fff;
         }
 
         /* Main column */
 
         .main {
             flex: 70%;
-            background-color: #3AAFA9;
-            color: #17252A;
+            background-color: #1a2634;
+            color: #fff;
             padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 10px;
         }
 
         .main a {
@@ -169,16 +181,17 @@
         .footer {
             padding: 20px;
             text-align: center;
-            background: #2B7A78;
+            background: #000000;
             color: #FEFFFF;
+            border-radius: 10px;
         }
 
         .footer a {
-            color: #17252A;
+            color: #FFFFFF;
         }
 
         .footer a:visited {
-            color: #17252A;
+            color: #FEFFFF;
         }
 
         /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
