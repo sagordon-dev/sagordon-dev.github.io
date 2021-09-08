@@ -31,7 +31,7 @@
 
         .navbar {
             display: flex;
-            background-color: #1a2634;
+            background-color: #000000;
             border-radius: 15px;
             margin-bottom: 10px;
         }
@@ -279,21 +279,26 @@
             background-color: #1572b6;
         }
 
-        /* Programming Tools */
+        /* Skills */
 
-        .nodejs {
-            width: 70%;
-            background-color: #8bc500;
-        }
-
-        .react {
-            width: 70%;
-            background-color: #00d8ff;
-        }
-
-        .docker {
+        .cs {
             width: 70%;
             background-color: #006fb6;
+        }
+
+        .db {
+            width: 70%;
+            background-color: #25244c;
+        }
+
+        .scripting {
+            width: 70%;
+            background-color: #f7e018;
+        }
+
+        .git {
+            width: 70%;
+            background-color: #e24d25;
         }
 
         /* Operating Systems */
