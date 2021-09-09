@@ -1,17 +1,15 @@
         * {
             box-sizing: border-box;
         }
-
         /* Style the body */
-
+        
         body {
             margin: auto;
             font-family: 'Montserrat';
             background-color: #0d1219;
         }
-
         /* Header/logo Title */
-
+        
         .header {
             padding: 60px;
             text-align: center;
@@ -25,18 +23,16 @@
             border-radius: 15px;
             margin-bottom: 10px;
         }
-
         /* Style the top navigation bar */
-
+        
         .navbar {
             display: flex;
             background-color: #000000;
             border-radius: 15px;
             margin-bottom: 10px;
         }
-
         /* Style the navigation bar links */
-
+        
         .navbar a {
             color: #FEFFFF;
             padding: 14px 20px;
@@ -44,26 +40,22 @@
             text-align: center;
             border-radius: 15px;
         }
-
         /* Change color on hover */
-
+        
         .navbar a:hover {
             background-color: #7b78ff;
             color: #25244c;
             border-radius: 15px;
         }
-
         /* Column container */
-
+        
         .row {
             display: flex;
             flex-wrap: wrap;
         }
-
         /* Create two unequal columns that sits next to each other */
-
         /* Sidebar/left column */
-
+        
         .side {
             flex: 30%;
             background-color: #191e25;
@@ -72,13 +64,17 @@
             border-radius: 15px;
             margin-bottom: 10px;
         }
-
-        .side h1, .side h2, .side h3, .side h4, .side h5, .side h6 {
+        
+        .side h1,
+        .side h2,
+        .side h3,
+        .side h4,
+        .side h5,
+        .side h6 {
             color: #fff;
         }
-
         /* Main column */
-
+        
         .main {
             flex: 70%;
             background-color: #1a2634;
@@ -87,36 +83,39 @@
             border-radius: 15px;
             margin-bottom: 10px;
         }
-
+        
         .main a {
             color: #DEF2F1;
         }
-
+        
         .main a:visited {
             color: #FEFFFF;
         }
-
-        .main h1, .main h2, .main h3, .main h4, .main h5, .main h6 {
+        
+        .main h1,
+        .main h2,
+        .main h3,
+        .main h4,
+        .main h5,
+        .main h6 {
             color: #FEFFFF;
         }
-
+        
         hr {
             height: 1px;
             background-color: #DEF2F1;
             border: none;
         }
-
         /* Portrait image */
-
+        
         .portrait {
             background-image: url("../images/profile200px.png");
             height: 200px;
             background-position: left;
             background-repeat: no-repeat;
         }
-
         /* Banner images */
-
+        
         .ds_banner {
             background-image: url("../images/banner3.jpeg");
             background-color: #aaa;
@@ -125,7 +124,7 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-
+        
         .wd_banner {
             background-image: url("../images/banner4.jpeg");
             background-color: #aaa;
@@ -134,7 +133,7 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-
+        
         .prog_banner {
             background-image: url("../images/banner2.jpeg");
             background-color: #aaa;
@@ -143,7 +142,7 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-
+        
         .resume_banner {
             background-image: url("../images/banner5.jpeg");
             background-color: #aaa;
@@ -152,7 +151,7 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-
+        
         .certificates {
             background-image: url("../images/banner6.jpeg");
             background-color: #aaa;
@@ -161,11 +160,11 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-
+        
         .badges {
             background-color: #FEFFFF;
         }
-
+        
         .work {
             background-image: url("../images/background3.jpg");
             background-color: #aaa;
@@ -174,9 +173,8 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-
         /* Footer */
-
+        
         .footer {
             padding: 20px;
             text-align: center;
@@ -184,134 +182,114 @@
             color: #FEFFFF;
             border-radius: 10px;
         }
-
+        
         .footer a {
             color: #FFFFFF;
         }
-
+        
         .footer a:visited {
             color: #FEFFFF;
         }
-
         /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-
+        
         @media screen and (max-width: 700px) {
-            .row, .navbar {
+            .row,
+            .navbar {
                 flex-direction: column;
             }
         }
-
         /* Skills Bar */
-
         /* Make sure that padding behaves as expected */
-
+        
         * {
             box-sizing: border-box
         }
-
         /* Container for skill bars */
-
+        
         .container {
             width: 100%;
-            /* Full width */
             background-color: #ddd;
-            /* Grey background */
         }
-
+        
         .skills {
             text-align: right;
-            /* Right-align text */
             padding-top: 10px;
-            /* Add top padding */
             padding-bottom: 10px;
-            /* Add bottom padding */
             color: white;
-            /* White text color */
         }
-
+        
         .tools {
             text-align: right;
-            /* Right-align text */
             padding-top: 10px;
-            /* Add top padding */
             padding-bottom: 10px;
-            /* Add bottom padding */
             color: white;
-            /* White text color */
         }
-
+        
         .os {
             text-align: right;
-            /* Right-align text */
             padding-top: 10px;
-            /* Add top padding */
             padding-bottom: 10px;
-            /* Add bottom padding */
             color: white;
-            /* White text color */
         }
-
         /* Programming Languages */
-
+        
         .python {
             width: 90%;
             background-color: #3770a1;
         }
-
+        
         .java {
             width: 80%;
             background-color: #ed8800;
         }
-
+        
         .js {
             width: 75%;
             background-color: #f7e018;
         }
-
+        
         .html {
             width: 85%;
             background-color: #e24d25;
         }
-
+        
         .css {
             width: 80%;
             background-color: #1572b6;
         }
-
         /* Skills */
-
+        
         .cs {
             width: 90%;
             background-color: #006fb6;
         }
-
+        
         .db {
             width: 80%;
             background-color: #25244c;
         }
-
+        
         .scripting {
             width: 85%;
             background-color: #f7e018;
         }
-
+        
         .git {
             width: 80%;
             background-color: #e24d25;
         }
-
         /* Operating Systems */
-
+        
         .windows {
             width: 90%;
             background-color: #0dadea;
         }
-
+        
         .mac {
             width: 80%;
             background-color: grey;
         }
-
+        
         .linux {
             width: 85%;
             background-color: #333;
