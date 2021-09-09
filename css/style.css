@@ -5,7 +5,6 @@
         /* Style the body */
 
         body {
-            width: 1000px;
             margin: auto;
             font-family: 'Montserrat';
             background-color: #0d1219;
@@ -19,7 +18,7 @@
             background-color: #000000;
             font-family: 'Montserrat';
             color: #FEFFFF;
-            background-image: url("../images/banner7.jpeg");
+            background-image: url("../images/banner6.jpeg");
             background-position: center;
             background-repeat: repeat no-repeat;
             background-size: cover;
