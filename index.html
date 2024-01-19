@@ -1,209 +1,203 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <title>Scott Gordon - Python Developer</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Montserrat:400,500,700,800"
-        rel="stylesheet">
-    <script src="https://kit.fontawesome.com/9c1549859f.js" crossorigin="anonymous"></script>
+<html lang="en">
+  <head>
+    <title>Scott Gordon - Tech Enthusiast</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Montserrat:400,500,700,800"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9c1549859f.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="/scripts/greeting.js"></script>
-</head>
+  </head>
 
-<body onload="greetVisitor()">
-    <!-- Header -->
+  <body onload="greetVisitor()">
     <div class="header">
-        <h1>Scott Gordon</h1>
-        <p>Python Developer</p>
+      <h1>Scott Gordon</h1>
+      <p>
+        Tech Enthusiast | DevOps Engineer | Python & Data Science Aficionado
+      </p>
     </div>
 
     <!-- Navigation Bar -->
     <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="certificates.html">Certificates</a>
-        <a href="https://dev.to/sagordondev" target="_blank" rel="noopener noreferrer">Recent Work</a>
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="certificates.html">Certificates</a>
+      <a href="projects.html">Projects</a>
+      <a
+        href="https://dev.to/sagordondev"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Blog</a
+      >
     </div>
-
-    <!-- The flexible grid (content) -->
-
 
     <div class="row">
-        <div class="side">
-            <h2 id="greeting"></h2>
-            <h5>My Picture:</h5>
-            <div style="height:200px;" class="portrait"></div>
-            <p>Just a casual picture of me with my dorky hipster glasses.</p>
-            <!-- Begin skills section -->
-            <h2>My Proficiencies</h2>
-            <h3>Programming Languages</h3>
-            <p><i class="fab fa-python"></i> Python</p>
-            <div class="container">
-                <div class="skills python">90%</div>
-            </div>
-            <p><i class="fab fa-java"></i> Java</p>
-            <div class="container">
-                <div class="skills java">80%</div>
-            </div>
-            <p><i class="fab fa-js"></i> JavaScript</p>
-            <div class="container">
-                <div class="skills js">75%</div>
-            </div>
-            <p><i class="fab fa-html5"></i> HTML</p>
-            <div class="container">
-                <div class="skills html">85%</div>
-            </div>
-            <p><i class="fab fa-css3-alt"></i> CSS</p>
-            <div class="container">
-                <div class="skills css">80%</div>
-            </div>
+      <div class="side">
+        <h2 id="greeting"></h2>
+        <img
+          src="images/profile200px.png"
+          alt="Scott Gordon"
+          class="portrait"
+        />
 
-            <h3>Skills</h3>
+        <p>
+          A tech enthusiast with expertise in DevOps, programming, and data
+          science.
+        </p>
 
-            <p><i class="fas fa-robot"></i> Computer Science</p>
-            <div class="container">
-                <div class="tools cs">90</div>
-            </div>
-            <p><i class="fas fa-database"></i> Database</p>
-            <div class="container">
-                <div class="tools db">80%</div>
-            </div>
-            <p><i class="fas fa-scroll"></i> Scripting</p>
-            <div class="container">
-                <div class="tools scripting">85%</div>
-            </div>
-            <p><i class="fab fa-git-alt"></i> Git</p>
-            <div class="container">
-                <div class="tools git">80%</div>
-            </div>
-
-            <h3>Operating Systems</h3>
-
-            <p><i class="fab fa-windows"></i> Windows</p>
-            <div class="container">
-                <div class="os windows">90%</div>
-            </div>
-            <p><i class="fab fa-apple"></i> Mac</p>
-            <div class="container">
-                <div class="os mac">80%</div>
-            </div>
-            <p> <i class="fab fa-linux"></i> Linux</p>
-            <div class="container">
-                <div class="os linux">85%</div>
-            </div>
-
-            <!-- End skills section -->
+        <!-- Skills Section -->
+        <h2>My Proficiencies</h2>
+        <h3>DevOps & Cloud</h3>
+        <p><i class="fab fa-aws"></i> AWS</p>
+        <div class="container">
+          <div class="skills aws">85%</div>
+        </div>
+        <p><i class="fab fa-docker"></i> Docker</p>
+        <div class="container">
+          <div class="skills docker">80%</div>
+        </div>
+        <p><i class="fab fa-kubernetes"></i> Kubernetes</p>
+        <div class="container">
+          <div class="skills kubernetes">75%</div>
         </div>
 
-        <div class="main">
-
-            <h2>HOME</h2>
-            <hr>
-            <!-- <div class="prog_banner" style="height:200px;"></div> -->
-            <h2>My Python Developer Skills</h2>
-            <ul>
-                <li><a href="#core_python">Core Python</a></li>
-                <li><a href="#frameworks">Frameworks</a></li>
-                <li><a href="#python_libraries">Python Libraries</a></li>
-                <li><a href="#front_end_technologies">Front-End Technologies</a></li>
-                <li><a href="#version_control">Version Control</a></li>
-                <li><a href="#communication_skills">Communication Skills</a></li>
-                <li><a href="#analytical_skills">Analytical Skills</a></li>
-            </ul>
-            <h3 id="core_python">Core Python</h3>
-            <p>The core Python concepts that I know are:</p>
-            <ul>
-                <li>Variables and Data Types</li>
-                <li>Data Structures</li>
-                <li>Exception Handling</li>
-                <li>File Handling</li>
-                <li>Object-Oriented Programming</li>
-            </ul>
-            <h3 id="frameworks">Frameworks</h3>
-            <p>The Python Frameworks that I know are:</p>
-            <ul>
-                <li>Django</li>
-                <li>Flask</li>
-            </ul>
-            <h3 id="python_libraries">Python Libraries</h3>
-            <p>The Python Libraries that I know are:</p>
-            <ul>
-                <li>Python Standard Libraries</li>
-                <li>Matplotlib</li>
-                <li>Numpy</li>
-                <li>Pandas</li>
-                <li>Requests</li>
-                <li>Scipy</li>
-                <li>Scikit-Learn</li>
-                <li>PyGame</li>
-            </ul>
-            <h3 id="front_end_technologies">Front-End Technologies</h3>
-            <p>The Front End Technologies that I know are:</p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
-            <h3 id="version_control">Version Control</h3>
-            <p>The Version Control that I know are:</p>
-            <ul>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>GitHub Desktop</li>
-            </ul>
-            <h3 id="communication_skills">Communication Skills</h3>
-            <p>The Communication Skills that I possess are:</p>
-            <ul>
-                <li>Writing - Reports and team communications</li>
-                <li>Speaking - Communicating with clients in person and online</li>
-                <li>Presenting - PowerPoint presentations and Jupyter Notebooks</li>
-                <li>Listening - Listen to clients challenges and form useful resolutions</li>
-                <li>Team Building - On school projects, worked with teammates strengths and weaknesses to get the
-                    project completed on time</li>
-                <li>Providing or accepting feedback - Offer and receive constructive criticisms to and from my clients
-                </li>
-                <li>Motivation - I'm also a master personal trainer, so it's kind of my specialty</li>
-                <li>Honesty - Honesty builds trust and without trust what do you have?</li>
-                <li>Empathy - As a trainer, Empathy is one of the most important skills. You must be able to imagine how
-                    your clients are feeling</li>
-
-            </ul>
-            <h3 id="analytical_skills">Analytical Skills</h3>
-            <p>The Analytical Skills I possess are:</p>
-            <ul>
-                <li>Research - Always looking up best practices about software and web development</li>
-                <li>Attention to Detail - Read and follow directions with great detail</li>
-                <li>Creativity - From website design to creating logos and banners using Photoshop and Illustrator, I'm
-                    very creative</li>
-                <li>Critical Thinking - I pride myself on being a critical thinker by thinking outside of my ethical
-                    lens</li>
-                <li>Active Listening - Understanding what it is my clients are trying to tell me is crucial</li>
-                <li>Decision Making - Making rational decisions based on the information provided promptly</li>
-                <li>Troubleshooting - Ten years of troubleshooting and repairing PCs and laptops</li>
-            </ul>
+        <!-- Programming Skills -->
+        <h3>Programming</h3>
+        <p><i class="fab fa-python"></i> Python</p>
+        <div class="container">
+          <div class="skills python">90%</div>
         </div>
+        <p><i class="fab fa-js-square"></i> JavaScript</p>
+        <div class="container">
+          <div class="skills js">75%</div>
+        </div>
+        <p><i class="fab fa-java"></i> Java</p>
+        <div class="container">
+          <div class="skills java">80%</div>
+        </div>
+
+        <!-- Data Science Skills -->
+        <h3>Data Science</h3>
+        <p><i class="fas fa-chart-line"></i> Data Analysis</p>
+        <div class="container">
+          <div class="skills data-analysis">85%</div>
+        </div>
+        <p><i class="fas fa-database"></i> SQL</p>
+        <div class="container">
+          <div class="skills sql">75%</div>
+        </div>
+      </div>
+      <!-- End of Side Section -->
+      <!-- Main Section -->
+      <div class="main">
+        <h2>Home</h2>
+        <hr />
+        <h2>Welcome to My Tech Playground!</h2>
+        <p>
+          Hi there! I'm Scott Gordon, a passionate tech enthusiast on a
+          perpetual journey of exploration and innovation. Join me in my tech
+          playground, where I seamlessly navigate through the realms of DevOps,
+          programming, and data science.
+        </p>
+
+        <h3>What You'll Find Here:</h3>
+        <ul>
+          <li>
+            <strong>DevOps Adventures:</strong> Dive into my experiences
+            optimizing cloud solutions, automating workflows, and orchestrating
+            deployments.
+          </li>
+          <li>
+            <strong>Code Chronicles:</strong> Explore my programming escapades,
+            from Python projects to Java wonders, and witness the magic of
+            coding.
+          </li>
+          <li>
+            <strong>Data Science Expeditions:</strong> Join me in the world of
+            data analysis, where I unravel insights and build pipelines for
+            efficient data processing.
+          </li>
+        </ul>
+
+        <h3>Featured Projects:</h3>
+        <p>
+          Check out some of my notable projects that showcase the fusion of
+          technology and creativity:
+        </p>
+        <ul>
+          <li>
+            <strong>Project A:</strong> Cloud-based cost optimization with AWS
+            and Docker.
+          </li>
+          <li>
+            <strong>Project B:</strong> Data analysis pipeline using Python and
+            SQL.
+          </li>
+          <li>
+            <strong>Project C:</strong> Kubernetes deployment for scalable
+            applications.
+          </li>
+          <li>
+            <strong>Project D:</strong> Generative Adversarial Network (GAN) for
+            image generation.
+          </li>
+        </ul>
+
+        <h3>Latest Blog Posts:</h3>
+        <p>
+          Explore my latest insights and thoughts on my
+          <a
+            href="https://dev.to/sagordondev"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Dev.to blog</a
+          >.
+        </p>
+
+        <p>
+          Join me in this ever-evolving tech landscape, where every line of code
+          tells a story and every project is an adventure waiting to unfold.
+        </p>
+      </div>
     </div>
-    <!-- Footer -->
+
     <div class="footer">
-        <h2>Find Me On ...</h2>
-        <a href="https://www.linkedin.com/in/sagordon-dev" target="_blank" rel="noopener noreferrer"><i
-                class="fab fa-linkedin fa-2x"></i></a>
-        <a href="https://github.com/sagordon-dev" target="_blank" rel="noopener noreferrer"><i
-                class="fab fa-github-square fa-2x"></i></a>
-        <a href="https://stackoverflow.com/users/11213295/scott-gordon?tab=profile" target="_blank"
-            rel="noopener noreferrer"><i class="fab fa-stack-overflow fa-2x"></i></a>
-        <a href="https://twitter.com/SagordonD" target="_blank" rel="noopener noreferrer"><i
-                class="fab fa-twitter-square fa-2x"></i></a>
-        <a href="https://dev.to/sagordondev" target="_blank" rel="noopener noreferrer"><i
-                class="fab fa-dev fa-2x"></i></a>
-        <a href="mailto:sagordon-dev@outlook.com" target="_blank" rel="noopener noreferrer"><i
-                class="fas fa-envelope-square fa-2x"></i></a>
-        <br><br>
+      <!-- Contact Information -->
+      <h2>Connect With Me</h2>
+      <a
+        href="https://www.linkedin.com/in/sagordon-dev"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="fab fa-linkedin fa-2x"></i
+      ></a>
+      <a
+        href="https://github.com/sagordon-dev"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="fab fa-github-square fa-2x"></i
+      ></a>
+      <a
+        href="https://dev.to/sagordondev"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="fab fa-dev fa-2x"></i
+      ></a>
+      <a
+        href="mailto:scott.gordon72@outlook.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="fas fa-envelope-square fa-2x"></i
+      ></a>
+      <br /><br />
 
-        <p>&copy; 2021 https://sagordon-dev.github.io/</p>
+      <p>&copy; 2024 https://sagordon-dev.github.io/</p>
     </div>
-
-</body>
-
+  </body>
 </html>
