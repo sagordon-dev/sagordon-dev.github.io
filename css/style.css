@@ -1,6 +1,271 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  margin: auto;
+  font-family: "Montserrat";
+  background-color: #0d1219;
+}
+
+hr {
+  height: 1px;
+  background-color: #def2f1;
+  border: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  display: flex;
+  background-color: #000000;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.navbar a {
+  color: #feffff;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.navbar a:hover {
+  background-color: #7b78ff;
+  color: #25244c;
+  border-radius: 15px;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background-color: #000000;
+  font-family: "Montserrat";
+  color: #feffff;
+  background-image: url("../images/banner6.jpeg");
+  background-position: center;
+  background-repeat: repeat no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.side {
+  flex: 30%;
+  background-color: #191e25;
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.side h1,
+.side h2,
+.side h3,
+.side h4,
+.side h5,
+.side h6 {
+  color: #fff;
+}
+
+.main {
+  flex: 70%;
+  background-color: #1a2634;
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.main a {
+  color: #def2f1;
+}
+
+.main a:visited {
+  color: #feffff;
+}
+
+.main h1,
+.main h2,
+.main h3,
+.main h4,
+.main h5,
+.main h6 {
+  color: #feffff;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #000000;
+  color: #feffff;
+  border-radius: 10px;
+}
+
+.footer a {
+  color: #ffffff;
+}
+
+.footer a:visited {
+  color: #feffff;
+}
+
+@media screen and (max-width: 700px) {
+  .row,
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills,
+.tools,
+.os {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.python {
+  width: 90%;
+  background-color: #3770a1;
+}
+
+.java {
+  width: 80%;
+  background-color: #ed8800;
+}
+
+.js {
+  width: 75%;
+  background-color: #f7e018;
+}
+
+.html {
+  width: 85%;
+  background-color: #e24d25;
+}
+
+.css {
+  width: 80%;
+  background-color: #1572b6;
+}
+
+.aws {
+  width: 90%;
+  background-color: #ff9900;
+}
+
+.docker {
+  width: 80%;
+  background-color: #0db7ed;
+}
+
+.kubernetes {
+  width: 85%;
+  background-color: #326ce5;
+}
+
+.data-analysis {
+  width: 80%;
+  background-color: #e24d25;
+}
+
+.sql {
+  width: 90%;
+  background-color: #800000;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.project h3 {
+  color: #3498db;
+}
+
+.project h4,
+.project p,
+.project li {
+  color: #555;
+}
+
+.project ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.project a {
+  color: #3498db;
+}
+
+.portrait {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  background-image: url("../images/profile200px.png");
+  height: 200px;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.ds_banner,
+.wd_banner,
+.prog_banner,
+.resume_banner,
+.certificates,
+.work {
+  background-color: #aaa;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ds_banner {
+  background-image: url("../images/banner3.jpeg");
+}
+
+.wd_banner {
+  background-image: url("../images/banner4.jpeg");
+}
+
+.prog_banner {
+  background-image: url("../images/banner2.jpeg");
+}
+
+.resume_banner {
+  background-image: url("../images/banner5.jpeg");
+}
+
+.certificates {
+  background-image: url("../images/banner6.jpeg");
+}
+
+.work {
+  background-image: url("../images/background3.jpg");
+}
+
+.badges {
+  background-color: #feffff;
+}* {
+  box-sizing: border-box;
+}
 /* Style the body */
 
 body {
