@@ -171,17 +171,17 @@ hr {
 }
 
 .kubernetes {
-  width: 85%;
+  width: 75%;
   background-color: #326ce5;
 }
 
 .data-analysis {
-  width: 80%;
+  width: 85%;
   background-color: #e24d25;
 }
 
 .sql {
-  width: 90%;
+  width: 75%;
   background-color: #800000;
 }
 
